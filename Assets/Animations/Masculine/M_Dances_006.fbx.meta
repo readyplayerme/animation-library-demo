@@ -36,8 +36,8 @@ ModelImporter:
       name: M_Dances_006
       takeName: M_Dances_006
       internalID: -288797722743130722
-      firstFrame: 0
-      lastFrame: 208
+      firstFrame: 16
+      lastFrame: 184
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
