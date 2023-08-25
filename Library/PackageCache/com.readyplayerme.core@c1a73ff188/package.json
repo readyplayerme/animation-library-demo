@@ -1,0 +1,63 @@
+{
+  "name": "com.readyplayerme.core",
+  "version": "3.1.1",
+  "displayName": "Ready Player Me Core",
+  "description": "This Module contains all the core functionality required for using Ready Player Me avatars in Unity, including features such as: \n - Module management and automatic package setup logic\n - Avatar loading from .glb files\n - Avatar and 2D render requests\n - Optional Analytics\n - Custom editor windows\n - Sample scenes and assets",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
+  "documentationUrl": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity-sdk",
+  "changelogUrl": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity-sdk/changelog",
+  "licensesUrl": "https://github.com/readyplayerme/rpm-unity-sdk-core/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  },
+  "keywords": [
+    "ready player me",
+    "avatar",
+    "loader",
+    "character",
+    "metaverse"
+  ],
+  "author": {
+    "name": "Ready Player Me",
+    "email": "info@readyplayer.me",
+    "url": "https://readyplayer.me"
+  },
+  "samples": [
+    {
+      "displayName": "QuickStart",
+      "description": "This quick start sample demonstrates how to load an avatar with a third person controller setup.",
+      "path": "Samples~/QuickStart"
+    },
+    {
+      "displayName": "AvatarLoading",
+      "description": "Loads an avatar.",
+      "path": "Samples~/AvatarLoading"
+    },
+    {
+      "displayName": "AvatarLod",
+      "description": "Demonstration of how to implement Avatar LOD's.",
+      "path": "Samples~/AvatarLod"
+    },
+    {
+      "displayName": "AvatarRender",
+      "description": "Creates a 2D render of an avatar using the Render API.",
+      "path": "Samples~/AvatarRender"
+    },
+    {
+      "displayName": "MultipleAvatarLoading",
+      "description": "Loads multiple avatars.",
+      "path": "Samples~/MultipleAvatarLoading"
+    },
+    {
+      "displayName": "MultipleQualityAvatarLoading",
+      "description": "Loads the same avatar multiple times with different quality settings.",
+      "path": "Samples~/MultipleQualityAvatarLoading"
+    },
+    {
+      "displayName": "MultipleAvatarRender",
+      "description": "Loads the multiple avatar render with different settings.",
+      "path": "Samples~/MultipleAvatarRender"
+    }
+  ]
+}
